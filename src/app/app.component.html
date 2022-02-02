@@ -1,0 +1,5 @@
+<h1 style="text-align:center">Angluar Calculator!!</h1>
+ 
+<app-display-component [value] ="value"></app-display-component> 
+<app-keypad-component (keyPressEvent)="display($event)" (onChange)="onChangeDisplay($event)" (clearClick)="onClickClearAll()"></app-keypad-component>  
+

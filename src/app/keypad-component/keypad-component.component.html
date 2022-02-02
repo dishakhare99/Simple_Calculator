@@ -1,0 +1,36 @@
+<body >
+    <table align=center>
+     
+       <tr>
+          <td><input type="button" name="one" value="1" (click)="onClick('1')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="two" value="2" (click)="onClick('2')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="three" value="3" (click)="onClick('3')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" class="operator" name="plus" value="+" (click)="onClick('+')" style="background-color:LightGray" ></td>
+       </tr>
+       <tr>
+          <td><input type="button" name="four" value="4" (click)="onClick('4')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="five" value="5" (click)="onClick('5')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="six" value="6" (click)="onClick('6')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" class="operator" name="minus" value="- " (click)="onClick('-')" style="background-color:LightGray"></td>
+       </tr>
+       <tr>
+          <td><input type="button" name="seven" value="7" (click)="onClick('7')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="eight" value="8" (click)="onClick('8')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="nine" value="9" (click)="onClick('9')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" class="operator" name="times" value="x" (click)="onClick('x')" style="background-color:LightGray"></td>
+       </tr>
+       <tr>
+        
+          
+          <td><input type="button" name="point" value=". " (click)="onClick('.')" style=" background-color:SlateBlue"></td>
+          <td><input type="button" name="zero" value="0" (click)="onClick('0')" style=" background-color:SlateBlue"></td>
+         <td><input type="button" name="doit" value="=" (click)=onClickEqual() style="background-color:Orange;"></td> 
+          <td><input type="button" class="operator" name="div" value="/ " (click)="onClick('/')" style="background-color:LightGray"></td>
+         
+       </tr>
+    </table>
+     <table align =center>
+         
+         <td ><input type="button" id="clear" name="clear" value="  &emsp;  CLEAR ALL  &emsp;&emsp;"  (click)="clearScreen()" style="border:2px solid Tomato;"></td>
+    </table> 
+</body>
